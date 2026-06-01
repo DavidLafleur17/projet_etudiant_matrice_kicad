@@ -1,0 +1,345 @@
+(footprint "RSAC6.8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db035293-7ce4-4e88-b8c5-bff124017f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RSAC6.8"
+		(at 0 1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca4ac7bc-66ac-4139-b8a0-ec3af26617c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/rsac6.8cmt2r-e.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc01ff36-c835-426c-b476-86a46a661572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Clamp Ipp Tvs Diode Surface Mount VMN2M (SOD-923)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a4f8b6b-7b60-4bc7-81da-af7eee9f4111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.5)
+		(end -0.95 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a2a4acf-89b5-4c04-9935-c723ff315bb0")
+	)
+	(fp_line
+		(start 0.51 -0.5)
+		(end -0.95 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97098e3e-3da8-4db0-b802-3b0425d65295")
+	)
+	(fp_line
+		(start 0.51 0.5)
+		(end -0.95 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "782e529d-17ad-4b27-bebd-698492a1eff1")
+	)
+	(fp_line
+		(start -1 -0.45)
+		(end -1 -0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc79702c-d73e-46de-ab16-e7fd1a2ea89d")
+	)
+	(fp_line
+		(start -1 -0.45)
+		(end -0.6 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21af2db6-4258-445b-9825-6f6a08fdc9db")
+	)
+	(fp_line
+		(start -1 -0.28)
+		(end -1 0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68dc2b6a-ea64-4115-a1ad-646f868ff894")
+	)
+	(fp_line
+		(start -1 0.28)
+		(end -1 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14763a54-af93-494c-ac60-0f81d3640f76")
+	)
+	(fp_line
+		(start -0.6 -0.45)
+		(end 0.6 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "620f4d5c-ca7a-4119-94c5-067cfc7fe740")
+	)
+	(fp_line
+		(start -0.6 0.45)
+		(end -1 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9118570-5998-4e7d-8ba7-af9c0fc8a76a")
+	)
+	(fp_line
+		(start 0.6 0.45)
+		(end -0.6 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1b3239a-3b80-41be-933a-66659e0b9190")
+	)
+	(fp_line
+		(start 0.6 0.45)
+		(end 0.8 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4be920c4-14ad-4ec2-b282-b9671dcd9c9e")
+	)
+	(fp_line
+		(start 0.8 -0.45)
+		(end 0.6 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "043c3bae-0b74-41c4-a9aa-51e6c0fb9951")
+	)
+	(fp_line
+		(start 0.8 -0.28)
+		(end 0.8 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "621fcafc-44cf-4a18-b2ca-747c61f76e77")
+	)
+	(fp_line
+		(start 0.8 -0.28)
+		(end 0.8 0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a29cca3d-7dea-4092-bce2-ccb4c3e944c5")
+	)
+	(fp_line
+		(start 0.8 0.45)
+		(end 0.8 0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43f27da9-aa7c-4656-bed4-39927993533a")
+	)
+	(fp_line
+		(start -0.39 -0.3)
+		(end 0.41 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6716df34-238d-4724-9688-df912c06cf01")
+	)
+	(fp_line
+		(start -0.39 0.3)
+		(end -0.39 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f18088ee-d061-471b-a73e-3c6212938cfe")
+	)
+	(fp_line
+		(start -0.14 0)
+		(end -0.24 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38598052-c312-42aa-abbb-6bfbb3e302c4")
+	)
+	(fp_line
+		(start -0.14 0)
+		(end 0.16 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60217d3e-ccb6-43dd-8e2b-ae49c131c94c")
+	)
+	(fp_line
+		(start -0.14 0.2)
+		(end -0.14 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b47b7e70-62fc-4ede-bf37-1830bbe9c3b2")
+	)
+	(fp_line
+		(start 0.16 -0.2)
+		(end -0.14 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ccf98ac-7a63-46da-abbd-4f41983d143f")
+	)
+	(fp_line
+		(start 0.16 0)
+		(end 0.26 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe889091-093e-4d19-94da-0a4fccceddb2")
+	)
+	(fp_line
+		(start 0.16 0.2)
+		(end 0.16 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fbbf570-e745-48a3-960c-8263ad61cd40")
+	)
+	(fp_line
+		(start 0.41 -0.3)
+		(end 0.41 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eee94808-840c-4014-a6ee-1947328b377b")
+	)
+	(fp_line
+		(start 0.41 0.3)
+		(end -0.39 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4655bd0d-b2f1-4702-9131-4d70b75d01a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 -1.2 0)
+		(layer "F.Fab")
+		(uuid "599e85be-a9c2-49f6-a7c6-0cecdbb0cd03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af1bf500-bf43-4f3c-a0e8-803b5f19707a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.475 0 180)
+		(size 0.5 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "41d524f0-5f29-4e67-9b86-5cff331b0b01")
+	)
+	(pad "2" smd roundrect
+		(at 0.475 0 180)
+		(size 0.5 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "76df9390-22cc-48f8-b248-93731962b1ad")
+	)
+	(embedded_fonts no)
+)

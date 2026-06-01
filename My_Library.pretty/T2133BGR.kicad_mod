@@ -1,0 +1,272 @@
+(footprint "T2133BGR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED RGB CLEAR 4SMD")
+	(tags "RGB")
+	(property "Reference" "RGB"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2bf3ebab-82bd-4ec2-a38e-8e06e559e202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RGB"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2cfa2d5b-7e23-472e-8d56-4dc19104b8e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5012/T2133BGR-20C0001U2U1930.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4bca93e-fdca-48c4-9963-a7adb08252a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Red, Green, Blue (RGB) 520nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 4-SMD, No Lead"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3cec80b-7bc8-4934-9f2d-44eb4adc45e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -1.45)
+		(end -1.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cfbe246-1d15-4f82-ae22-286127bea5a8")
+	)
+	(fp_line
+		(start -1.45 1.05)
+		(end -1.45 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c776535-0101-4996-9fd7-0f8966a61c82")
+	)
+	(fp_line
+		(start -1.15 1.35)
+		(end -1.45 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "766ae744-2898-453e-8ac2-08134613d066")
+	)
+	(fp_line
+		(start 1.45 -1.45)
+		(end 1.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba68d94-f5b2-49f6-bd7d-2705e71001b0")
+	)
+	(fp_line
+		(start 1.45 -1.45)
+		(end 1.45 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94bfc9b9-7341-4cc0-9e0a-166cede185d9")
+	)
+	(fp_line
+		(start 1.45 1.45)
+		(end 1.15 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e06d9b5-4e22-4b50-a812-c8a975b5199e")
+	)
+	(fp_line
+		(start -1.45 -1.9)
+		(end -1.45 1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "708c64f4-9657-4a37-b721-9762d685786d")
+	)
+	(fp_line
+		(start -1.45 1.95)
+		(end 1.45 1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aa0df29-b57c-483d-b6e8-b036ff49a783")
+	)
+	(fp_line
+		(start 1.45 -1.9)
+		(end -1.45 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "df8e4e0c-4977-41c6-beef-3fa03d263a3e")
+	)
+	(fp_line
+		(start 1.45 1.95)
+		(end 1.45 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "279138f9-b7f7-45c0-964f-3d1466e2858a")
+	)
+	(fp_line
+		(start -1.05 0.225736)
+		(end -0.236827 1.038909)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a994041c-8491-44da-a718-c8a7970dd5a6")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfea168b-b3d9-4699-ba20-00227d48a15b")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5da205ce-9c0f-4034-a7d0-38b6d84eda09")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e4ec254-18e9-47f2-abdb-29b487d4e7e0")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b6fc131-0484-4a06-afb8-85b1b862a398")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6cd8ca68-87ab-423f-b3db-ab714dffded5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0729c3c0-1ca4-4463-9b04-fd20e4a3fe33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.05 0)
+		(layer "F.Fab")
+		(uuid "735ea4df-5df3-48bf-90a4-f73ae27229c8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.55 1.15 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7de890c9-ca06-4f88-967d-bdd503018b7b")
+	)
+	(pad "2" smd roundrect
+		(at 0.55 1.15 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a70d6290-0f38-4885-b775-a9d2378fbbd7")
+	)
+	(pad "3" smd roundrect
+		(at 0.55 -1.1 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b1e32c03-ad66-4224-b533-94adb9b34ddc")
+	)
+	(pad "4" smd roundrect
+		(at -0.55 -1.1 90)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "66f74a56-8531-45f8-8672-c20de3a6b612")
+	)
+	(embedded_fonts no)
+)
